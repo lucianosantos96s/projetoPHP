@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+header, footer {
+    height: 70px;
+    line-height: 70px;
+    background: rgb(0,255,149);
+    background: linear-gradient(90deg, rgba(0,255,149,1) 21%, rgba(255,255,255,1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #909090;
+}
+
+header span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer span {
+    text-align: center;
+    display: block;
+}
+
+header h1 {
+    margin-left: 10px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+section {
+    margin: 15px auto;
+    width: 70%;
+}
+
+section h2 {
+    font-weight: normal;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.editar {
+    display: inline-block;
+    padding: 8px;
+    background-color: blue;
+    margin-right: 8px;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.excluir {
+    display: inline-block;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+th, td {
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+}
+
+td {
+    margin-top: 15px;
+}
+
+form label {
+    display: inline-block;
+    margin-top: 20px;
+    color: #505050;
+    margin-left: 10px;
+}
+
+input[type=text], input[type=email]{
+    border-radius: 10px;
+    border-color: #ddd;
+    padding: 5px;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    color:#505050;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: 0.8em;
+    border: none;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
